@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>GalleryApi</title>
+</head>
+
+<body>
+    <div class="modal-fullPhoto">
+        <div class="container-full-photo">
+            <img class="full-photo" src="" alt="">
+            <img class="close-open" src="/img/full_screen_icon.png" alt="">
+        </div>
+        <img class="close-modal" src="/img/close.png" alt="">
+    </div>
+    <header class="header_container">
+        <div class="header_content">
+            <div class="header_logo_text">
+                <img class="header_logo" src="./img/logo.png" alt="">
+                <div class="header_text">Gallery</div>
+            </div>
+            <div class="header_search">
+                <input placeholder="Введите текст..." class="header_search_input" type="text">
+                <div class="header_search_btn"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main_container">
+        <div class="main_content">
+            <div class="loader">
+                <img src="./img/loader-orange.png" alt="">
+            </div>
+            <div class="main_content_items">
+            </div>
+            <div class="main_content_pagination">
+                <button class="prev">Prev</button>
+                <span class="current-1 active-page">1</span>
+                <span class="current-2">2</span>
+                <span class="current-3">3</span>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer_container">
+        <div class="footer_content">
+            <div class="footer_github"><a href="https://github.com/maksimyou">Github 2023</a></div>
+            <div class="footer_logo"><img src="./img/logo_rs_text.svg" alt=""></div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
